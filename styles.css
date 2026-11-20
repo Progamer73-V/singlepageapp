@@ -1,0 +1,31 @@
+:root {
+    --primary-bg: rgb(191, 22, 22);
+    --primary-text: black;
+    --secondary-bg: white;
+    --secondary-text: white;
+    --card-bg: lightgreen;
+    --secondary-font: Georgia, 'Times New Roman', Times, serif;
+    --standard-gap: 40px;
+}
+body {
+    font-family: sans-serif;
+    background: var(--primary-bg);
+    color: var(--primary-text);
+}
+
+button {
+    font-family: sans-serif;
+    background: var(--secondary-bg);
+    color: var(--primary-text);
+}
+input {
+    font-family: sans-serif;
+    background: var(--secondary-bg);
+    color: var(--primary-text);
+}
+
+img {
+    font-family: sans-serif;
+    background: var(--secondary-bg);
+    color: var(--primary-text);
+}
